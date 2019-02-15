@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/saveMessage/saveMessage",
+    "pages/profile/profile",
+    "pages/index/index",
+    "pages/product/product",
+    "pages/shoplist/shoplist",
+    "pages/exam/exam",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f60",
+    "navigationBarTitleText": "学子商城",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "assets/message.png",
+        "selectedIconPath": "assets/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/profile.png",
+        "selectedIconPath": "assets/profile-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "联系我",
+        "iconPath": "assets/contact.png",
+        "selectedIconPath": "assets/contact-active.png"
+      }
+    ]
+  }
+}

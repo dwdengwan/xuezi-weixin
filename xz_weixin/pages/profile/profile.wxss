@@ -1,0 +1,29 @@
+/* pages/profile/profile.wxss */
+.avatar{
+  background: #f60;
+  position:relative;
+  width: 750rpx;
+  height: 400rpx;
+  display: flex;  /*弹性布局*/
+  justify-content: center; /*水平居中*/
+  align-items: center; /*垂直居中*/
+}
+.avatar image{
+  position: absolute;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border:3px solid rgba(0,0,0,.3)
+}
+.twofloor .dd{
+  border: 1px solid #eee;
+  border-bottom: 0 none;
+  height:80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  font-weight: bolder;
+  padding:20rpx 30rpx;
+}
+.twofloor .tt{
+  border-bottom: 1px solid #eee;
+}

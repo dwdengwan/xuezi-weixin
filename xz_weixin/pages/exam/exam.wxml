@@ -1,0 +1,9 @@
+<!--pages/exam/exam.wxml-->
+<view>
+  <text>测试事件绑定方式</text>
+  <view class="container" bindtap="hanleTap0">
+    <view bindtap="hanleTap1">绑定事件1</view>
+    <view catchtap='hanleTap2' data-id="9">绑定事件2</view>
+    <view bindtap="handleTap3" data-age="19" data-idx="101">绑定事件3</view>
+  </view>
+</view>

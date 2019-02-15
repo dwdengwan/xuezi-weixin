@@ -1,0 +1,62 @@
+/* pages/shoplist/shoplist.wxss */
+page{
+  background: #fff;
+}
+/* 当前商品条目 */
+.shop{
+  padding:20rpx;
+  border-bottom:1px solid #ddd;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+/* 商品图片 */
+.shop-image{
+  width:160rpx;
+  height: 158rpx;
+  margin-right: 20rpx;
+  margin-top:10rpx;
+}
+/* 商品信息 */
+.shop .shop-info{
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-size:12px; 
+  color:#666;
+  line-height: 1.5;
+}
+/* 店铺名称 */
+.shop .shop-title{
+  font-size: 14px;
+  color: #333;
+  width: 380rpx;
+}
+/* 店铺名称 截取 */
+
+/* 店铺电话 */
+/* .shop .shop-tel{
+
+} */
+/* 店铺地址 */
+/* .shop .shop-addr{
+
+} */
+/* 店铺营业时间 */
+/* .shop .shop-time{} */
+/* 评分 */
+.shop .shop-star{
+  width: 22%;
+  position: relative;
+}
+.shop .shop-star .star-after,.shop .shop-star .star-before{
+  position: absolute;
+}
+.shop .shop-star .star-after{
+  color:#e2e2e2;
+}
+.shop .shop-star .star-before{
+  color:#f19e38;
+  overflow: hidden;
+}
